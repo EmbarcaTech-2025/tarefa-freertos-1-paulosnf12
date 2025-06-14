@@ -66,6 +66,7 @@ target_include_directories(rtos PRIVATE
 # Add any user requested libraries
 target_link_libraries(rtos 
         FreeRTOS-Kernel-Heap4
+        hardware_pwm
         )
 
 pico_add_extra_outputs(rtos)
